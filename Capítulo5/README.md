@@ -138,7 +138,7 @@ Para: valor de la columna "Encargado"
 
 Subject: ⚠️ Stock bajo detectado 
 
-Body: 
+$Body:$
 
 Hola,
 

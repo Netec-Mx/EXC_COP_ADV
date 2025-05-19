@@ -10,8 +10,6 @@ Al finalizar la práctica, serás capaz de:
 ## Duración aproximada:
 - 25 minutos.
 
-
-
 ## Instrucciones 
 
 ### Tarea 1. Realizar macro para registrar a clientes

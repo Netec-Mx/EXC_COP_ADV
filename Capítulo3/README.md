@@ -210,7 +210,6 @@ Al finalizar la práctica, serás capaz de:
 - 15 minutos.
 
 ## Escenario:
-
 Trabajas en el área de inteligencia comercial de una empresa dedicada a la distribución de tecnología, mobiliario y telecomunicaciones a nivel nacional. Cada venta tiene un valor considerable, ya que se trata de productos empresariales.
 
 La gerencia solicita un informe visual que indique qué productos están cumpliendo con el objetivo de ventas promedio por operación, fijado en $6,000 MXN.
