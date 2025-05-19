@@ -21,14 +21,14 @@ Al finalizar la práctica, serás capaz de:
 <!-- Proporciona pasos detallados sobre cómo configurar y administrar sistemas, implementar soluciones de software, realizar pruebas de seguridad, o cualquier otro escenario práctico relevante para el campo de la tecnología de la información -->
 ### Tarea 1. Preparar las celdas editables (comentarios)
 
-Paso 1. Abril el archivo llamado [Informe financiero 2024](<Informe financiero 2024.xlsx>) 
+Paso 1. Abrir el archivo llamado [Informe financiero 2024](<Informe financiero 2024.xlsx>) 
 
 Selecciona el rango $E2:E14$
 
 ![img1](../images/img1.png)
 
 
-Paso 2. az clic derecho → Formato de celdas → Proteger → desmarca *"Bloqueada"*.
+Paso 2. Haz clic derecho → Formato de celdas → Proteger → desmarca *"Bloqueada"*.
 
 ![img2](../images/img2.png)
 
