@@ -21,7 +21,9 @@ Al finalizar la práctica, serás capaz de:
 <!-- Proporciona pasos detallados sobre cómo configurar y administrar sistemas, implementar soluciones de software, realizar pruebas de seguridad, o cualquier otro escenario práctico relevante para el campo de la tecnología de la información -->
 ### Tarea 1. Preparar las celdas editables (comentarios)
 
-Paso 1. Selecciona el rango $E2:E14$
+Paso 1. Abril el archivo llamado [Informe financiero 2024](<Informe financiero 2024.xlsx>) 
+
+Selecciona el rango $E2:E14$
 
 ![img1](../images/img1.png)
 
