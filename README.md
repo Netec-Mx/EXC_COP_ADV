@@ -21,18 +21,18 @@ Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia pr
    - ⏱️ **Duración estimada**: 25 minutos.
 
 
- - [Práctica 3.1. Modelo de datos con Power Pivot ().](./Capítulo3/README.md)
-   - ⏱️ **Duración estimada**: 10 minutos.
- - [Práctica 3.2. Filtrado interactivo de ventas con segmentación en Power Pivot.](./Capítulo3/README.md)
-   - ⏱️ **Duración estimada**: 15 minutos.
- - [Práctica 3.3. Evaluación de Ventas con KPIs en Power Pivot.](./Capítulo3/README.md)
-   - ⏱️ **Duración estimada**: 15 minutos.
+   - [Práctica 3.1. Modelo de datos con Power Pivot ().](./Capítulo3/README.md)
+     - ⏱️ **Duración estimada**: 10 minutos.
+   - [Práctica 3.2. Filtrado interactivo de ventas con segmentación en Power Pivot.](./Capítulo3/README.md)
+     - ⏱️ **Duración estimada**: 15 minutos.
+   - [Práctica 3.3. Evaluación de Ventas con KPIs en Power Pivot.](./Capítulo3/README.md)
+     - ⏱️ **Duración estimada**: 15 minutos.
 
 
- - [Práctica 4.1. Unificación de nombres en una celda utilizando Power Query.](./Capítulo4/README.md)
-   - ⏱️ **Duración estimada**: 10 minutos.
- - [Práctica 4.2. Segmentación inteligente de clientes con Power Query.](./Capítulo4/README.md)
-   - ⏱️ **Duración estimada**: 15 minutos.
+   - [Práctica 4.1. Unificación de nombres en una celda utilizando Power Query.](./Capítulo4/README.md)
+     - ⏱️ **Duración estimada**: 10 minutos.
+   - [Práctica 4.2. Segmentación inteligente de clientes con Power Query.](./Capítulo4/README.md)
+     - ⏱️ **Duración estimada**: 15 minutos.
 
 
  - [Práctica 5. Alerta por stock bajo en inventario con Power Automate.](./Capítulo5/README.md)
