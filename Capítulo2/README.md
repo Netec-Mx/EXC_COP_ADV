@@ -29,7 +29,7 @@ Paso 4. Al iniciar la grabación, ir a la pestaña "BD Clientes" e insertar una 
 Paso 5. Posicionarse en la columna A3 de la pestaña BD Clientes.
 ![img14](../images/img14.png)
 
-Paso 6.  Regresar a la pestaña Registro, seleccionar la información del campo "Nombre completo" y pegarla solo como valores en la pestaña BD Clientes.
+Paso 6.  Regresar a la pestaña registro, seleccionar la información del campo "NOMBRE COMPLETO" y pegarla solo como valores en la pestaña BD Clientes.
 ![img15](../images/img15.png)
 ![img16](../images/img16.png)
 
@@ -37,10 +37,10 @@ Paso 7. Posicionarse en la columna siguiente de la pestaña BD Clientes.
 
 ![img17](../images/img17.png)
 
-Paso 8. Ir a la pestaña "Registro" y seleccionar los datos del campo de "Dirección".
+Paso 8. Ir a la pestaña registro y seleccionar los datos del campo de "DIRECCIÓN".
 ![img18](../images/img18.png)
 
-Paso 9. Ir a la pestaña BD Clientes y pegar solo como valores la información en el campo de Dirección.
+Paso 9. Ir a la pestaña BD Clientes y pegar solo como valores la información en el campo de "Dirección".
 
 ![img19](../images/img19.png)
 
@@ -54,9 +54,9 @@ Paso 12. Al terminar de pasar todos los datos, dirigirse al campo de "Nombre", s
 
 ![img21](../images/img21.png)
 
-Paso 13. Ir a la hoja de Registro y dar doble clic en cualquier celda.
+Paso 13. Ir a la hoja de registro y dar doble clic en cualquier celda.
 
-Paso 14. En la barra superior, ir a la sección de Programador y detener la grabación.
+Paso 14. En la barra superior, ir a la sección de "Programador" y detener la grabación.
 
 Paso 15. Ir al botón "Registrar" y asignarle la macro "Registro_clientes".
 
@@ -64,34 +64,34 @@ Paso 15. Ir al botón "Registrar" y asignarle la macro "Registro_clientes".
 
 ### Tarea 2. Realizar macro para limpiar campos
 
-Paso 1: En la barra superior, ir a la sección de Programador, seleccionar "Grabar macro" y ponerle el nombre de "Limpiar".
+Paso 1. En la barra superior, ir a la sección de "Programador", seleccionar "Grabar macro" y ponerle el nombre de "Limpiar".
 
 ![img23](../images/img23.png)
 
-Paso 2: Ir al campo "Nombre" y oprimir el botón *Supr*. 
+Paso 2. Ir al campo "Nombre" y oprimir el botón *Supr*. 
 
 ![img24](../images/img24.png)
 
-Paso 3: Realizar la misma acción con cada uno de los campos de la pestaña "Registro clientes".
+Paso 3. Realizar la misma acción con cada uno de los campos de la pestaña "Registro clientes".
 
-Paso 4: Asignar la macro al botón de limpiar.
+Paso 4. Asignar la macro al botón de limpiar.
 
 ![img25](../images/img25.png)
 
-Paso 5: Hacer la prueba ingresando datos y luego usar el botón limpiar.
+Paso 5. Hacer la prueba ingresando datos y luego usar el botón limpiar.
 
 ![img26](../images/Img26.png)
 
 
 ### Tarea 3. Realiza Macro para buscar datos
 
-Paso 1: Generar una nueva hoja con el nombre de "BUSCAR".
+Paso 1. Generar una nueva hoja con el nombre de "BUSCAR".
 
-Paso 2: De la hoja BD Clientes seleccionar los campos de la tabla y pegarlos en la hoja de BUSCAR.
+Paso 2. De la hoja BD Clientes seleccionar los campos de la tabla y pegarlos en la hoja de BUSCAR.
 
 ![img27](../images/img27.png)
 
-Paso 3: Crear una fórmula que se encargará de buscar los datos; basar como criterio de búsqueda el nombre. 
+Paso 3. Crear una fórmula que se encargará de buscar los datos; basar como criterio de búsqueda el nombre. 
 Posicionarse en la columna A2 y escribir la fórmula.
 
 ```
@@ -101,47 +101,47 @@ Posicionarse en la columna A2 y escribir la fórmula.
 ![img28](../images/img28.png)
 
 
-Paso 4: Posicionarse en la fórmula y arrastrarla a la derecha hacia los demás campos. En cada campo se debe cambiar en la fórmula la columna, según corresponda.
+Paso 4. Posicionarse en la fórmula y arrastrarla a la derecha hacia los demás campos. En cada campo se debe cambiar en la fórmula la columna, según corresponda.
 
 ![img29](../images/img29.png)
 
-Paso 5: Para comprobar su funcionamiento, ir a la pestaña Registro en el campo de "NOMBRE COMPLETO" y poner el nombre de un registro ya conocido. 
+Paso 5. Para comprobar su funcionamiento, ir a la pestaña Registro en el campo de "NOMBRE COMPLETO" y poner el nombre de un registro ya conocido. 
 
 ![img30](../images/img30.png)
 
-Paso 6: Ir a la pestaña Buscar y ver que efectivamente obtiene la información.
+Paso 6. Ir a la pestaña Buscar y ver que efectivamente obtiene la información.
 
 ![img31](../images/img31.png)
 
-Paso 7: Dirigirse a la pestaña Registro y en la barra, en el apartado de Programador, grabar la macro con el nombre de "Buscar".
+Paso 7. Dirigirse a la pestaña "Registro" y en la barra, en el apartado de "Programador", seleccionar "Grabar la macro" con el nombre de "Buscar".
 
 ![img31](../images/img32.png)
 
-Paso 8: Ir a la celda donde está el campo "DIRECCIÓN"; dirigirse a la hoja de Buscar, seleccionar el campo y pegarlo solo como valores en la hoja de Registro.
+Paso 8. Ir a la celda donde está el campo "DIRECCIÓN"; dirigirse a la hoja de buscar, seleccionar el campo y pegarlo solo como valores en la hoja de Registro.
 ![img33](../images/img33.png)
 
 ![img34](../images/img34.png)
 
-Paso 9: Posicionarse en el campo de "EDAD"; ir a la hoja de BUSCAR, seleccionar la información de la edad y pegarla solo como valores en la hoja de Registro.
+Paso 9. Posicionarse en el campo de "EDAD"; ir a la hoja de BUSCAR, seleccionar la información de la edad y pegarla solo como valores en la hoja de Registro.
 
 ![img35](../images/img35.png)
 
 ![img36](../images/img36.png)
 
-Paso 10: Hacer lo mismo con cada uno de los campos que tenemos con información, al terminar, posicionarse en otra celda cualquiera.
+Paso 10. Hacer lo mismo con cada uno de los campos que tenemos con información, al terminar, posicionarse en otra celda cualquiera.
 
-Paso 11: Dirigirse a la barra superior en la sección de programador y detener la macro. 
+Paso 11. Dirigirse a la barra superior en la sección de "Programador" y detener la macro. 
 
-Paso 12: Asignar la macro al botón de BUSCAR.
+Paso 12. Asignar la macro al botón de BUSCAR.
 ![img37](../images/img37.png)
 
 
 ### Tarea 4. Quitar el parpadeo de la macro, regitrar y buscar
 
-Paso 1 Ir a la pestaña Programador en el apartado de Visual Basic.
+Paso 1. Ir a la sección de "Programador" en el apartado de Visual Basic.
 ![img38](../images/img38.png)
 
-Paso 2: Donde esta el código de la macro de Registro_clientes, colocar la siguiente instrucción: 
+Paso 2. Donde esta el código de la macro de "Registro_clientes", colocar la siguiente instrucción: 
 
 *Application.ScreenUpdating = False*
 
