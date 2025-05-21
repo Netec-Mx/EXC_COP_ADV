@@ -129,9 +129,9 @@ Paso 2. Buscar la acción de "Send an email (V2)".
 
 Paso 3. Llenar los valores de la siguiente manera.
 
-$Para:$ valor de la columna "Encargado".
-
 ![img129](../images/img129.png)
+
+$Para:$ valor de la columna "Encargado".
 
 $Subject:$ ⚠️ Stock bajo detectado 
 
