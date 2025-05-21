@@ -17,13 +17,13 @@ Eres un analista de datos en una empresa que maneja grandes volúmenes de inform
 
 Paso 1. Descargar y guardar el siguiente archivo llamado: [Modelos_con_Power_Pivot](Modelos_con_Power_Pivot.xlsx). 
 
-Paso 2. Dirigirse a la pestaña Ventas, posteriormente, seleccionar Power Pivot en la barra superior y hacer clic en Agregar a modelo de datos ![img46](../images/img46.png).
+Paso 2. Dirigirse a la pestaña "Ventas", posteriormente, seleccionar Power Pivot en la barra superior y hacer clic en "Agregar a modelo de datos" ![img46](../images/img46.png).
 
 Verás que se despliega el editor de Power Pivot.
 
 ![img47](../images/img47.png)
 
-Paso 3. Minimizar la pantalla y hacer lo mismo con la pestaña de Tiendas y Productos.
+Paso 3. Minimizar la pantalla y hacer lo mismo con la pestaña de "Tiendas" y "Productos".
 ![img48](../images/img48.png)
 
 Veras en el editor de Power Pivot las tres pestañas de cada modelo de datos agregado.
@@ -35,13 +35,13 @@ Veras en el editor de Power Pivot las tres pestañas de cada modelo de datos agr
 
 Paso 1. Ir a la vista de diagrama:
 
-* En la ventana de Power Pivot, hacer clic en Vista de diagrama.
-* Aparecerán las tres tablas cargadas con sus encabezados visibles.
+- En la ventana de Power Pivot, hacer clic en "Vista de diagrama".
+- Aparecerán las tres tablas cargadas con sus encabezados visibles.
 
 ![img50](../images/img50.png)
 
 Paso 2. Relacionar la tabla de Ventas con la de Productos:
-- Identificar la columna Código de Producto en ambas tablas.
+- Identificar la columna "Código de Producto" en ambas tablas.
 - Arrastrar la columna Código de Producto de la tabla de Ventas hacia la columna correspondiente en la tabla de Productos.
 
 *Nota:* Considera que puedes arrastrar las tablas según tu preferencia.
@@ -52,7 +52,7 @@ Verificar que la relación se haya creado.
 
 
 Paso 3. Relacionar la tabla de Ventas con la de Tiendas:
-- Encontrar la columna Empleado en la tabla de Ventas y la columna Empleado en la tabla de Tiendas.
+- Encontrar la columna "Empleado" en la tabla de Ventas y la columna "Empleado" en la tabla de Tiendas.
 - Arrastrar la columna Empleado de la tabla de Ventas hacia la columna en la tabla de Tiendas.
 
 ![img52](../images/img52.png)
@@ -62,16 +62,16 @@ Paso 3. Relacionar la tabla de Ventas con la de Tiendas:
 ### Tarea 3. Crear una tabla dinámica en Power Pivot
 
 Paso 1. Insertar una tabla dinámica:
-- En la ventana de Power Pivot, seleccionar Tabla dinámica en la parte superior.
+- En la ventana de Power Pivot, seleccionar "Tabla dinámica" en la parte superior.
 
 ![img53](../images/img53.png)
 
-- Elegir Nueva hoja de cálculo para que la tabla dinámica se inserte en una hoja nueva en Excel.
+- Elegir "Nueva hoja de cálculo" para que la tabla dinámica se inserte en una hoja nueva en Excel.
 
 Paso 2. Agregar campos a la tabla dinámica:
-- En la lista de campos de la tabla dinámica, seleccionar Tienda de la tabla de Tiendas y colocarla en el área de Filas.
-- Agregar Descripción del Producto de la tabla de Productos al área de Filas debajo de Tienda.
-- Añadir Unidades de la tabla de Ventas al área de Valores. 
+- En la lista de campos de la tabla dinámica, seleccionar "Tienda" de la tabla de "Tiendas" y colocarla en el área de "Filas".
+- Agregar "Descripción del Producto" de la tabla de Productos al área de Filas debajo de Tienda.
+- Añadir "Unidades" de la tabla de Ventas al área de "Valores". 
 ![img54](../images/img54.png)
 
 Paso 3. Guardar los cambios realizados y cerrar el archivo.
@@ -98,7 +98,7 @@ Al finalizar la práctica, serás capaz de:
 
 Paso 1: Descargar el archivo llamado [Práctica_2_módulo_3](práctica_módulo_3_parte_2.xlsx).
 
-Paso 2: En la pestaña "Empleados" seleccionar la tabla y en la parte superior ir a Power Pivot. Dar clic en agregar a modelo de datos.
+Paso 2: En la pestaña "Empleados" seleccionar la tabla y en la parte superior ir a Power Pivot. Dar clic en "Agregar a modelo de datos".
 
 ![img56](../images/img56.png)
 
@@ -111,7 +111,7 @@ Paso 3. Cerrrar la hoja y repetir lo mismo con cada una de las tablas de la pest
 
 ![img58](../images/img58.png)
 
-Paso 4. Una vez que ya estan todas las tablas en Power Pivot, cambiar los nombres de las tablas dando clic derecho en la opción Cambiar nombre.
+Paso 4. Una vez que ya estan todas las tablas en Power Pivot, cambiar los nombres de las tablas dando clic derecho en la opción "Cambiar nombre".
 
 
 ![img59](../images/img59.png)
@@ -120,7 +120,7 @@ Los nombre deben quedar de la siguiente manera:
 
 ![img60](../images/img60.png)
 
-Paso 5. Ir a la opción de Vista de diagrama en Power Pivot.
+Paso 5. Ir a la opción de "Vista de diagrama" en Power Pivot.
 
 ![img61](../images/img61.png)
 
@@ -148,15 +148,15 @@ En valores quedará la suma del campo total que está en la tabla "Ventas".
 ![img65](../images/img65.png)
 
 Paso 4. Ir a la celda donde aparece la primera fecha que es 04/05/2020,
-dar clic derecho y seleccionar agrupar.
+dar clic derecho y seleccionar "Agrupar".
 
 ![img66](../images/img66.png)
 
-Seleccionar la opción de meses y aceptar.
+Seleccionar la opción de "Meses" y aceptar.
 
 ![img67](../images/img67.png)
 
-Paso 5. Seleccionar una celda de la columna del Total general, hacer clic derecho y dirigirse a formato número.
+Paso 5. Seleccionar una celda de la columna del "Total general", hacer clic derecho y dirigirse a "Formato número".
 
 ![img68](../images/img68.png)
 
@@ -176,7 +176,7 @@ Paso 2. En la tabla "Categoría" seleccionar la opción categoría. Y en la tabl
 
 ![img72](../images/img72.png)
 
-Paso 3. En los segmentadores insertados, seleccionar "Consumo básico" y "Azúcar" y "Café".
+Paso 3. En los segmentadores insertados, seleccionar "Consumo básico", "Azúcar" y "Café".
 
 Paso 4: Guardar los cambios realizados y cerrar el archivo.
 
@@ -215,7 +215,7 @@ Para ello, vas a construir un KPI con Power Pivot, el cual te permitirá visuali
 
 Paso 1. Descargar y abrir el archivo [Práctica_módulo_3_ parte_3](práctica_módulo3_parte_3.xlsx).
 
-Paso 2. Convertir los datos en una tabla (Crtl + T) y nombrarla VentasKPI.
+Paso 2. Convertir los datos en una tabla (Crtl + T) y nombrarla "VentasKPI".
 
 ![img76](../images/img76.png)
 ![img77](../images/img77.png)
@@ -230,15 +230,17 @@ Paso 1. Dar formato de moneda a la columna Precio y columna Total.
 
 ![img79](../images/img79.png)
 
-Paso 2. En el área de cálculo, crear una medida con la siguiente formula :
+Paso 2. En el "Área de cálculo", crear una medida con la siguiente formula:
 
 ![img80](../images/img80.png)
 
+```
 *PromedioVenta := AVERAGE(VentasKPI[Total])*
+```
 
 ![img81](../images/img81.png)
 
-Paso 3. Para dar formato al promedio de venta, hacer clic derecho en la opción de formato y seleccionar Moneda, Simbolo $ y Posiciones decimales 1.
+Paso 3. Para dar formato al promedio de venta, hacer clic derecho en la opción de "Formato" y seleccionar Moneda, Simbolo $ y Posiciones decimales 1.
 
 ![img82](../images/img82.png)
 
@@ -267,7 +269,7 @@ Paso 4. Confirmar con Aceptar.
 
 ### Tarea 4. Crear una tabla dinámica para visualizar
 
-Paso 1. Regresar a la hoja de excel donde esta la tabla y seleccionar la opción de insertar tabla dinámica, hacer clic en la opción de "Desde modelo de datos" y en una nueva hoja. 
+Paso 1. Regresar a la hoja de Excel donde esta la tabla y seleccionar la opción de insertar "Tabla dinámica", hacer clic en la opción de "Desde modelo de datos" y en una nueva hoja. 
 
 ![img85](../images/img85.png)
 
