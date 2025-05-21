@@ -78,7 +78,7 @@ Paso 2. Contraseña: Finanzas2024
 
 Paso 3. Guardar los cambios y cerrar el archivo.
 
-Paso 4. Abrir el archivo, ingresar la contraseña y colocar un comentario en la columna comentarios del analista.
+Paso 4. Abrir el archivo, ingresar la contraseña y colocar un comentario en la columna "Comentarios del analista".
 
 ### Resultado esperado
 - Solo se podrán ingresar comentarios en la columna “Comentarios del analista”.
