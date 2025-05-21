@@ -92,7 +92,7 @@ Filtrar toda la tabla Restaurant para solo incluir productos tipo Comida con pre
 
 ### Tarea 3. Realizar tablas dinámicas
 
-Paso 1. En la interfaz de Power Pivot seleccionar tabla dinámica en una Nueva Hoja. 
+Paso 1. En la interfaz de Power Pivot seleccionar "Tabla dinámica" en una nueva hoja. 
 
 ![img143](../images/img143.png)
 
@@ -103,7 +103,7 @@ Valores --> Total Propinas
 
 ![img144](../images/img144.png)
 
-Paso 3. Ahora, agregar el promedio por pedido (orden). Seleccionar la medida de "ProemdioPropina" para asignarla al campo valores.
+Paso 3. Ahora, agregar el promedio por pedido (orden). Seleccionar la medida de "PromedioPropina" para asignarla al campo valores.
 
 ![img145](../images/img145.png)
 
