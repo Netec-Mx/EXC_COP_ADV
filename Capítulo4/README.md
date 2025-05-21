@@ -105,7 +105,7 @@ Paso 2. Abrir un libro de Excel. Guardarlo con el nombre de "Práctica módulo 4
 Paso 3. Ir a Excel → Datos > Obtener datos > Desde archivo > Desde texto/CSV.
 ![img99](../images/img99.png)
 
-Paso 4. Seleccionar el archivo CSV previamente descargado, e importar.
+Paso 4. Seleccionar el archivo CSV previamente descargado e importar.
 ![img100](../images/img100.png)
 
 Paso 5. Seleccionar la opción de "Transformar datos".
@@ -124,7 +124,7 @@ Paso 2. Revisar que la columna "Ventas" este en formato: "Número decimal".
 ![img103](../images/img103.png)
 
 
-Paso 3. Revisar que "Fecha_de_compra" este en formato: Fecha/Hora (si aparece como texto cambialo a fecha).
+Paso 3. Revisar que "Fecha_de_compra" este en formato: Fecha/Hora (si aparece como texto cambiarlo a fecha).
 
 ![img104](../images/img104.png)
 
@@ -153,7 +153,7 @@ else "📉 Básico"
 Paso 1. Para mayor claridad, renombrar la columna "Fecha_de_compra" por "Fecha".
 ![img108](../images/img108.png)
 
-Paso 2. Hacer lo mismo para la columna "Nombre_Cliente", dar clic derecho posicionados sobre la columna.
+Paso 2. Hacer lo mismo para la columna "Nombre_Cliente", dar clic derecho posicionado sobre la columna.
 
 ![img109](../images/img109.png)
 
