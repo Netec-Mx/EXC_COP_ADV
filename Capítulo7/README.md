@@ -2,6 +2,7 @@
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
+
 -Organizar y consolidar datos de ingresos personales por categoría, periodo y producto en una estructura clara y funcional.
 
 -Aplicar herramientas de Excel como tablas dinámicas, segmentadores y gráficos para visualizar los ingresos de forma interactiva.
@@ -59,24 +60,22 @@ Vamos a la hoja de los datos, insertar tabla dinamica
 
 ![img153](../images/img153.png)
 
-### Tarea 2. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
 Los campos quedarán así:
 Fila --> Tipo Producto
 Valores --> Suma Ingresos
 
 ![img154](../images/img154.png)
 
-Paso 2. Cambiamos el encabezado de la columana por "Fuente de Ingresos", quitamos los decimales y colocamos el formato moneda.
+Paso 7. Cambiamos el encabezado de la columana por "Fuente de Ingresos", quitamos los decimales y colocamos el formato moneda.
 
 ![img155](../images/img155.png)
 
-Paso 3. Vamos a quitar el total general.Vamos a la opción de Diseño. Seleccionamos la opción de "Totales generales" y damos clic en la opción "Desactivado para filas y columnas"
+Paso 8. Vamos a quitar el total general.Vamos a la opción de Diseño. Seleccionamos la opción de "Totales generales" y damos clic en la opción "Desactivado para filas y columnas"
 
 
 ![img156](../images/img156.png)
 
-Paso 4. Vamos a crear una tabla que nos ayude más adelante a generar un gráfico de líneas para todos los años, así que necesitamos los ingresos para cada año. Vamos a la hoja de Datos, seleccionamos e insertamos la tabla dinámica en la hoja "PT".
+Paso 9. Vamos a crear una tabla que nos ayude más adelante a generar un gráfico de líneas para todos los años, así que necesitamos los ingresos para cada año. Vamos a la hoja de Datos, seleccionamos e insertamos la tabla dinámica en la hoja "PT".
 Seleccionamos los campos de la siguiente manera
 
 Fila --> Año
@@ -84,12 +83,12 @@ Valores --> Suma Ingresos
 
 ![img157](../images/img157.png)
 
-Paso 5. Cambiamos el nombre de "Etiquetas de fila" por "Año", ponemos formato moneda, quitamos los decimales y desactivamos el total general.
+Paso 10. Cambiamos el nombre de "Etiquetas de fila" por "Año", ponemos formato moneda, quitamos los decimales y desactivamos el total general.
 
 ![img158](../images/img158.png)
 
 
-Paso 6. Vamos a cambiar el nombre de las tablas dinámicas para tenerlas bien identificadas.
+Paso 11. Vamos a cambiar el nombre de las tablas dinámicas para tenerlas bien identificadas.
 Vamos a la primera 
 ![img159](../images/img159.png)
 
