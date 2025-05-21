@@ -1,43 +1,128 @@
-# Nombre del laboratorio 
+# Aplicación de DAX para análisis de ventas y servicio
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
-- Objetivo1
-- Objetivo2
-- Objetivo3
+- Aplicar funciones clave de DAX como CALCULATE, FILTER, DIVIDE y AVERAGEX para resolver necesidades de negocio relacionadas con el análisis de propinas por mesero y ventas por tipo de producto. El participante comprenderá cómo filtrar contextos y crear medidas relevantes para análisis operativos.
 
-## Objetivo Visual 
-Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen. 
 
-![diagrama1](../images/img1.png)
 
 ## Duración aproximada:
-- xx minutos.
+- 20 minutos.
 
-## Tabla de ayuda:
-Agregar una tabla con la información que pueda requerir el participante durante el laboratorio, como versión de software, IPs de servers, usuarios y credenciales de acceso.
-| Contraseña | Correo | Código |
-| --- | --- | ---|
-| Netec2024 | edgardo@netec.com | 123abc |
+## Escenario: 
+
+Trabajas en el área de análisis de un restaurante. El gerente general solicita un informe donde pueda ver:
+
+- Cuánto ha recaudado cada mesero en propinas.
+
+- Quién tiene mejor promedio de propina por pedido.
+
+- Cuánto se ha vendido por tipo de producto (Comida vs Bebida).
+
+- Cuánto se ha vendido exclusivamente en productos de comida con precio menor a $100.
+
+
 
 ## Instrucciones 
-<!-- Proporciona pasos detallados sobre cómo configurar y administrar sistemas, implementar soluciones de software, realizar pruebas de seguridad, o cualquier otro escenario práctico relevante para el campo de la tecnología de la información -->
-### Tarea 1. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
 
-Paso 2. <!-- Añadir instrucción -->
+### Tarea 1. Cargar la base de datos de excel a Power Pivot
 
-Paso 3. <!-- Añadir instrucción -->
+Paso 1. DDescargar el archivo llamado: [Practica Modulo 6](<Práctica Modulo 6.xlsx>)
 
-### Tarea 2. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
+Paso 2. Vamos a la parte superior a Power Pivot y seleccionamos "Agregar a modelo de datos"
 
-Paso 2. <!-- Añadir instrucción -->
+![img137](../images/img137.png)
 
-Paso 3. <!-- Añadir instrucción -->
+![img138](../images/img138.png)
+
+
+### Tarea 2. Crear las medidas DAX
+
+Paso 1. Posicionarnos en el área de cálculo.
+
+Paso 2. Vamos a calcular el Total de propinas por mesero, usando la siguiente fórmula.
+
+TotalPropinas :=
+SUM(Restaurant[Propina])
+
+Paso 3. Al calculo realizado darle el formato de moneda.
+
+![img139](../images/img139.png)
+
+
+Paso 4. Vamos a calcular el promedio de propina por pedido (orden). Escribimos la siguiente fórmula.
+
+PromedioPropina :=
+AVERAGEX(
+    VALUES(Restaurant[Orden]),
+    CALCULATE(SUM(Restaurant[Propina]))
+)
+
+Paso 5. Al calculo realizado darle el formato de moneda
+
+![img140](../images/img140.png)
+
+ Esto calcula el promedio por pedido (Orden), agrupando todos los registros con el mismo número de orden.
+
+ Paso 6. Calcular el Total de ventas por tipo de producto.
+
+ VentasTotales :=
+SUM(Restaurant[Precio])
+
+Paso 7. Aplicar el formato moneda
+
+![img141](../images/img141.png)
+
+Paso 8. Calcular las ventas de comina con precio menor a $100.
+
+VentasComidaMenor100 :=
+CALCULATE(
+    [VentasTotales],
+    FILTER(
+        Restaurant,
+        Restaurant[Tipo] = "Comida" &&
+        Restaurant[Precio] < 100
+    )
+)
+
+Paso 9. Aplicar el formato moneda
+
+![img142](../images/img142.png)
+
+ Aquí filtramos toda la tabla Restaurant para solo incluir productos tipo Comida con precio menor a 100.
+
+
+### Tarea 3. Realizar tablas dinámicas
+
+Paso 1. En la interfaz de Power Pivot seleccionar tabla dinámica en una Nueva Hoja. 
+
+![img143](../images/img143.png)
+
+Paso 2. Realizamos la primera tabla de las "Propinas por mesero"
+
+Filas --> Restaurant[Atendió]
+Valores --> Total Propinas
+
+![img144](../images/img144.png)
+
+Paso 3. Vamos a agregar ahora el promedio por pedido (orden). Seleccionamos la medida de "ProemdioPropina"  para asignarla al campo valores.
+
+![img145](../images/img145.png)
+
+Paso 4. Vamos a copiar y pegar esa tabla dinamica y limpiamos todos los campos.Ahora vamos a estructurar las ventas por tipo.
+
+Filas --> Restaurant[Tipo]
+Valores --> VentasTotales
+
+Tenemos que las ventas totales fueron de $2,051,629
+![img146](../images/img146.png)
+
+Paso 5. Agregamos a esa tabla la medida que se realizo de VentasComidaMenor100
+![img147](../images/img147.png)
 
 ### Resultado esperado
 En esta sección se debe mostrar el resultado esperado de nuestro laboratorio
-![imagen resultado](../images/img3.png)
 
+En el análisis realizado, se identificó que el total recaudado en propinas entre todos los meseros fue de $3,560.18, siendo Mauricio quien destacó significativamente con $551.20, la cifra más alta individual. Además, al evaluar el promedio de propina por pedido, Mauricio nuevamente lidera con un promedio de $2.43, muy por encima del promedio general de $1.42, lo cual sugiere un desempeño destacado en atención al cliente o tipo de servicio brindado. En cuanto a las ventas por tipo de producto, se determinó que la comida generó $1,392,755, representando la mayor parte del ingreso frente a las bebidas con $658,874. Finalmente, se observó que dentro de las ventas de comida, los productos con precio menor a $100 representaron un volumen importante, alcanzando un total de $653,942, lo cual evidencia una alta demanda de opciones accesibles dentro del menú.
 
+![img148](../images/img148.png)
