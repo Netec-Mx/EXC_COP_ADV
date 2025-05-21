@@ -19,6 +19,7 @@ Paso 2. Ir a la pestaña de registro, dirigirse a la sección *programador* y se
 ![img11](../images/img11.png)
 
 Paso 3. Nombrar a la macro como *registro_clientes*.
+
 ![img12](../images/img12.png)
 
 Paso 4. Al iniciar la grabación, ir a la pestaña BD Clientes e insertar una fila nueva debajo de los encabezados.
