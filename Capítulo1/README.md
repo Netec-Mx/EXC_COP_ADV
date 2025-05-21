@@ -21,7 +21,7 @@ Seleccionar el rango $E2:E14$
 
 ![img1](../images/img1.png)
 
-Paso 2. Hacer clic derecho en → Formato de celdas → Proteger → desmarca *"Bloqueada"*.
+Paso 2. Hacer clic derecho en → Formato de celdas → Proteger → desmarca "Bloqueada".
 
 ![img2](../images/img2.png)
 
