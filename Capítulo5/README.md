@@ -19,7 +19,7 @@ Tu objetivo es configurar un flujo que revise diariamente esa tabla y envíe una
 
 ### Tarea 1. Crear el archivo en Excel y subirlo a OneDrive
 
-Paso 1. Generar la siguiente tabla de inventario en Excel, ya sea en Excel Online, o en tu máquina y subelo a OneDrive.
+Paso 1. Generar la siguiente tabla de inventario en Excel, ya sea en Excel Online o en tu máquina, y subelo a OneDrive.
 
 > Nota: En el correo del encargado, coloca tu correo ya que aquí se hará el envío de correo para está práctica.
 
@@ -57,8 +57,9 @@ Paso 1. Ingresar a https://make.powerautomate.com
 Paso 2. Seleccionar la opción "Flujo de nube programado".
 ![img114](../images/img114.png)
 
-Paso 2. Añadir un nombre como "Alerta por stock bajo".
-Paso 3. En la frecuencia escojer "Cada día".
+Paso 3. Añadir un nombre como "Alerta por stock bajo".
+
+Paso 4. En la frecuencia escojer "Cada día".
 
 ![img115](../images/img115.png)
 
@@ -73,7 +74,7 @@ Paso 3. En la frecuencia escojer "Cada día".
 
   ![img117](../images/img117.png)
 
-Paso 3: Llenar los campos con la siguiente información:
+Paso 3. Llenar los campos con la siguiente información:
 
 - Ubicación: One Drive for Bussines
 - Biblioteca de documentos: Documentos
@@ -163,7 +164,7 @@ Paso 2. Seleccionar la opción Test y hacer clic en "Manually".
 
 ![img133](../images/img133.png)
 
-Paso 3. Dar clic en Run Flow.
+Paso 3. Dar clic en "Run Flow".
 
 ![img134](../images/img134.png)
 
