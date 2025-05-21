@@ -1,4 +1,4 @@
-# Práctica 4.1. Unificación de nombres en una celda utilizando Power Query.
+# Práctica 4.1. Unificación de nombres en una celda utilizando Power Query
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
