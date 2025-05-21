@@ -26,37 +26,37 @@ Paso 4. Al iniciar la grabación, ir a la pestaña BD Clientes e insertar una fi
 
 ![img13](../images/img13.png)
 
-Paso 3. Posicionarse en la columna A3 de la pestaña BD Clientes.
+Paso 5. Posicionarse en la columna A3 de la pestaña BD Clientes.
 ![img14](../images/img14.png)
 
-Paso 4  Regresar a la pestaña *Registro*, seleccionar la información del campo *Nombre completo* y pegarla solo como valores en la pestaña *BD Clientes*.
+Paso 6.  Regresar a la pestaña *Registro*, seleccionar la información del campo *Nombre completo* y pegarla solo como valores en la pestaña *BD Clientes*.
 ![img15](../images/img15.png)
 ![img16](../images/img16.png)
 
-Paso 5: Posicionarse en la pestaña *BD Clientes* en la columna siguiente.
+Paso 7. Posicionarse en la pestaña *BD Clientes* en la columna siguiente.
 ![img17](../images/img17.png)
 
-Paso 6: Ir a la pestaña *Registro* y seleccionar los datos del campo de *Dirección*.
+Paso 8. Ir a la pestaña *Registro* y seleccionar los datos del campo de *Dirección*.
 ![img18](../images/img18.png)
 
-Paso 7: Ir a la pestaña BD Clientes y pegar solo como valores la información en el campo de dirección.
+Paso 9. Ir a la pestaña BD Clientes y pegar solo como valores la información en el campo de dirección.
 
 ![img19](../images/img19.png)
 
-Paso 8: Posicionarse en la columna siguiente en el campo edad.
+Paso 10. Posicionarse en la columna siguiente en el campo edad.
 
 ![img20](../images/img20.png)
 
-Paso 9: Repetir el proceso con todos los datos. 
-Paso 10. Al terminar de pasar todos los datos, dirigirse al campo de nombre, seleccionar el filtro y escoger la opción Ordenar de la A-Z.
+Paso 11. Repetir el proceso con todos los datos. 
+Paso 12. Al terminar de pasar todos los datos, dirigirse al campo de nombre, seleccionar el filtro y escoger la opción Ordenar de la A-Z.
 
 ![img21](../images/img21.png)
 
-Paso 11: Ir a la hoja de registro y dar doble clic en cualquier celda.
+Paso 13. Ir a la hoja de registro y dar doble clic en cualquier celda.
 
-Paso 12: En la barra superior, ir a la sección de *Programador y detener la grabación.
+Paso 14. En la barra superior, ir a la sección de *Programador y detener la grabación.
 
-Paso 13: Ir al botón *Registrar* y asignarle la macro *Registro_clientes*.
+Paso 15. Ir al botón *Registrar* y asignarle la macro *Registro_clientes*.
 
 ![img22](../images/img22.png)
 
