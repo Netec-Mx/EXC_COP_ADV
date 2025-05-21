@@ -14,6 +14,7 @@ Al finalizar la práctica, serás capaz de:
 
 ### Tarea 1. Realizar macro para registrar a clientes
 Paso 1. Abrir el archivo llamado [Registro_de_clientes](<Registro de clientes.xlsm>).
+
 Paso 2. Ir a la pestaña de registro, dirigirse a la sección *programador* y seleccionar *grabar macro*.
 ![img11](../images/img11.png)
 
