@@ -70,7 +70,7 @@ Paso 7. Aplicar el formato moneda.
 
 ![img141](../images/img141.png)
 
-Paso 8. Calcular las ventas de comina con precio menor a $100.
+Paso 8. Calcular las ventas de comida con precio menor a $100.
 
 ```
 VentasComidaMenor100:=CALCULATE(
@@ -87,7 +87,7 @@ Paso 9. Aplicar el formato moneda.
 
 ![img142](../images/img142.png)
 
-Filtrar toda la tabla Restaurant para solo incluir productos tipo Comida con precio menor a 100.
+Filtrar toda la tabla "Restaurant" para solo incluir productos tipo comida con precio menor a 100.
 
 
 ### Tarea 3. Realizar tablas dinámicas
@@ -98,19 +98,19 @@ Paso 1. En la interfaz de Power Pivot seleccionar "Tabla dinámica" en una nueva
 
 Paso 2. Realizar la primera tabla de las "Propinas por mesero".
 
-Filas --> Restaurant[Atendió]
-Valores --> Total Propinas
+- Filas --> Restaurant[Atendió]
+- Valores --> Total Propinas
 
 ![img144](../images/img144.png)
 
-Paso 3. Ahora, agregar el promedio por pedido (orden). Seleccionar la medida de "PromedioPropina" para asignarla al campo valores.
+Paso 3. Agregar el promedio por pedido (orden). Seleccionar la medida de "PromedioPropina" para asignarla al campo valores.
 
 ![img145](../images/img145.png)
 
 Paso 4. Copiar y pegar esa tabla dinamica, limpiar todos los campos y después, estructurar las ventas por tipo.
 
-Filas --> Restaurant[Tipo]
-Valores --> VentasTotales
+- Filas --> Restaurant[Tipo]
+- Valores --> VentasTotales
 
 Se tiene que las ventas totales fueron de $2,051,629.
 
