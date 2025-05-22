@@ -107,7 +107,7 @@ Confirmar.
 
 ![img57](../images/img57.png)
 
-Paso 3. Cerrrar la hoja y repetir lo mismo con cada una de las tablas de la pestaña "Ventas" y "Categoría".
+Paso 3. Cerrar la hoja y repetir lo mismo con cada una de las tablas de la pestaña "Ventas" y "Categoría".
 
 
 ![img58](../images/img58.png)
