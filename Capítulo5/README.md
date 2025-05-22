@@ -19,7 +19,7 @@ Tu objetivo es configurar un flujo que revise diariamente esa tabla y envíe una
 
 ### Tarea 1. Crear el archivo en Excel y subirlo a OneDrive
 
-Paso 1. Generar la siguiente tabla de inventario en Excel, ya sea en Excel Online o en tu máquina, y subelo a OneDrive.
+Paso 1. Generar la siguiente tabla de inventario en Excel, ya sea en Excel Online o en tu máquina, y subirlo a OneDrive.
 
 > Nota: En el correo del encargado, coloca tu correo ya que aquí se hará el envío de correo para está práctica.
 
@@ -97,7 +97,8 @@ Paso 3. Valor de entrada: "value"
 
   ![img121](../images/img121.png)
 
-Seleccionar "cuerpo/valor".
+Paso 4. Seleccionar "cuerpo/valor".
+
   ![img122](../images/img122.png)
 
 ### Tarea 5. Agrega una condición
@@ -110,11 +111,11 @@ Paso 2. Buscar "Condition".
 
   ![img124](../images/img124.png)
 
-Paso 3. En Choose a value, seleccionar Stock actual.
+Paso 3. En Choose a value, seleccionar "Stock actual".
 
 ![img125](../images/img125.png)
 
-Paso 4. Seleccionar la opción "is less than" y también seleccionar "Stock mínimo".
+Paso 4. Seleccionar la opción "is less than" y también "Stock mínimo".
 
 ![img126](../images/img126.png)
 
@@ -158,7 +159,7 @@ Automatización con Power Automate
 Paso 1. Dar clic en "Save".
 ![img131](../images/img131.png)
 
-Paso 2. Seleccionar la opción Test y hacer clic en "Manually".
+Paso 2. Seleccionar la opción "Test" y hacer clic en "Manually".
 
 ![img132](../images/img132.png)
 
