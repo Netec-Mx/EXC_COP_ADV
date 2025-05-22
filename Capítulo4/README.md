@@ -138,10 +138,12 @@ Paso 2. Nombrarla "Clasificación_Cliente".
 
 Usar la siguiente fórmula en lenguaje M: 
 
-* if [Ventas] >= 200 then "🔝 VIP"
-* else if [Ventas] >= 150 then "⭐ Premium"
-* else if [Ventas] >= 100 then "✔️ Regular"
-* else "📉 Básico"
+```
+if [Ventas] >= 200 then "🔝 VIP"
+ else if [Ventas] >= 150 then "⭐ Premium"
+ else if [Ventas] >= 100 then "✔️ Regular"
+ else "📉 Básico"
+```
 
 ![img106](../images/img106.png)
 
