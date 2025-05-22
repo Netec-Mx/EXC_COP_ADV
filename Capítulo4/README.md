@@ -47,7 +47,7 @@ Paso 3. Hacer clic derecho y seleccionar "Combinar columnas".
 
 ![img92](../images/img92.png)
 
-Paso 4. Elegir como separador la opción de Espacio y, en "Nuevo nombre de columna", escribir: *Nombre completo*
+Paso 4. Elegir como separador la opción de "Espacio" y, en "Nuevo nombre de columna", escribir: *Nombre completo*
 
 ![img93](../images/img93.png)
 
@@ -59,11 +59,11 @@ Paso 6. Seleccionar la columna Nombre completo y dar clic en "Cerrar y cargar en
 
 ![img95](../images/img95.png)
 
-Paso 7. Dejar marcada la opción Tabla; adicionalemente, marcar la opción de Hoja de cálculo existente, seleccionar la celda E1 y dar clic en Aceptar.
+Paso 7. Dejar marcada la opción "Tabla"; adicionalemente, marcar la opción de "Hoja de cálculo existente", seleccionar la celda E1 y dar clic en Aceptar.
 
 ![img96](../images/img96.png)
 
-Paso 8. Como resultado, se obtiene la nueva columna de Nombre completo, únicamente hay que darle el mismo formato que a la tabla original.
+Paso 8. Como resultado, se obtiene la nueva columna de "Nombre completo", únicamente hay que darle el mismo formato que a la tabla original.
 
 ![img97](../images/img97.png)
 
@@ -114,17 +114,17 @@ Paso 5. Seleccionar la opción de "Transformar datos".
 
 ### Tarea 2. Verificar y corregir tipos de datos
 
-Paso 1. Revisar que la columna "ID_Cliente", "Nombre_Cliente" y "Ciudad" esten en formato Texto.
+Paso 1. Revisar que la columna "ID_Cliente", "Nombre_Cliente" y "Ciudad" esten en formato "Texto".
 
 ![img102](../images/img102.png)
 
 
-Paso 2. Revisar que la columna "Ventas" este en formato: "Número decimal".
+Paso 2. Revisar que la columna "Ventas" este en formato "Número decimal".
 
 ![img103](../images/img103.png)
 
 
-Paso 3. Revisar que "Fecha_de_compra" este en formato: Fecha/Hora (si aparece como texto cambiarlo a fecha).
+Paso 3. Revisar que "Fecha_de_compra" este en formato "Fecha/Hora", (si aparece como texto cambiarlo a fecha).
 
 ![img104](../images/img104.png)
 
@@ -138,10 +138,10 @@ Paso 2. Nombrarla "Clasificación_Cliente".
 
 Usar la siguiente fórmula en lenguaje M: 
 
-if [Ventas] >= 200 then "🔝 VIP"
-else if [Ventas] >= 150 then "⭐ Premium"
-else if [Ventas] >= 100 then "✔️ Regular"
-else "📉 Básico"
+* if [Ventas] >= 200 then "🔝 VIP"
+* else if [Ventas] >= 150 then "⭐ Premium"
+* else if [Ventas] >= 100 then "✔️ Regular"
+* else "📉 Básico"
 
 ![img106](../images/img106.png)
 
