@@ -44,7 +44,7 @@ Paso 2. Relacionar la tabla de Ventas con la de Productos:
 - Identificar la columna "Código de Producto" en ambas tablas.
 - Arrastrar la columna Código de Producto de la tabla de Ventas hacia la columna correspondiente en la tabla de Productos.
 
-*Nota:* Considera que puedes arrastrar las tablas según tu preferencia.
+> Nota: Considera que puedes arrastrar las tablas según tu preferencia.
 
 Verificar que la relación se haya creado.
 
