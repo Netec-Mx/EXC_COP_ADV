@@ -19,7 +19,7 @@ Paso 1. Descargar y guardar el siguiente archivo llamado: [Modelos_con_Power_Piv
 
 Paso 2. Dirigirse a la pestaña "Ventas", posteriormente, seleccionar Power Pivot en la barra superior y hacer clic en "Agregar a modelo de datos" ![img46](../images/img46.png).
 
-Verás que se despliega el editor de Power Pivot.
+Se observa el despliegue del editor de Power Pivot.
 
 ![img47](../images/img47.png)
 
@@ -27,7 +27,7 @@ Paso 3. Minimizar la pantalla y hacer lo mismo con la pestaña de "Tiendas" y "P
 
 ![img48](../images/img48.png)
 
-Veras en el editor de Power Pivot las tres pestañas de cada modelo de datos agregado.
+En el editor de Power Pivot se observan las tres pestañas de cada modelo de datos agregado.
 
 ![img49](../images/img49.png)
 
@@ -58,7 +58,7 @@ Paso 3. Relacionar la tabla de Ventas con la de Tiendas:
 
 ![img52](../images/img52.png)
 
-- Asegúrate de que la relación sea correcta.
+- Asegurarse de que la relación sea correcta.
 
 ### Tarea 3. Crear una tabla dinámica en Power Pivot
 
@@ -135,15 +135,16 @@ Paso 6. Crear las relaciones de la siguiente manera:
 
 ### Tarea 2. Crear una tabla dinámica
 
-Paso 1. En la barra superior seleccionar tabla dinámica.
+Paso 1. En la barra superior seleccionar "Tabla dinámica".
 
 ![img63](../images/img63.png)
 
-Paso 2. Seleccionar una nueva hoja de calculo.
+Paso 2. Seleccionar una "Nueva hoja de cálculo".
 
 ![img64](../images/img64.png)
 
 Paso 3. La tabla dinámica quedará en la columna del campo de "Nombre" que está en la tabla Empleados.
+
 Las filas quedarán con el campo Fecha (de la tabla Ventas), Categoría (de la tabla Categoría) y Productos (de la tabla Ventas).
 
 En valores quedará la suma del campo total que está en la tabla "Ventas".
@@ -173,7 +174,7 @@ Pao 6. Seleccionar el formato moneda y las posiciones decimales 0.
 Paso 1. Posicionarse en la tabla dinámica y dirigirse a la barra superior, en la opción de "Analizar tabla dinámica" seleccionar "Insertar segmentación de datos".
 ![img70](../images/img70.png)
 
-Paso 2. En la tabla "Categoría" seleccionar la opción categoría. Y en la tabla "Ventas" seleccionar productos.
+Paso 2. En la tabla "Categoría" seleccionar la opción Categoría. Y en la tabla "Ventas" seleccionar Productos.
 
 ![img71](../images/img71.png)
 
@@ -238,7 +239,7 @@ Paso 2. En el "Área de cálculo", crear una medida con la siguiente formula:
 ![img80](../images/img80.png)
 
 ```
-*PromedioVenta := AVERAGE(VentasKPI[Total])*
+PromedioVenta := AVERAGE(VentasKPI[Total])
 ```
 
 ![img81](../images/img81.png)
@@ -250,7 +251,7 @@ Paso 3. Para dar formato al promedio de venta, hacer clic derecho en la opción 
 
 ### Tarea 3. Crear el KPI
 
-Paso 1. Seleccionar la medida de PromedioVenta.
+Paso 1. Seleccionar la medida de Promedio de Venta.
 Paso 2. Hacer clic en "Crear KPI" en la pestaña de Inicio de Power Pivot.
 ![img83](../images/img83.png)
 
