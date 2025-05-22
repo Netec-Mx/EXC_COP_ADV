@@ -24,6 +24,7 @@ Verás que se despliega el editor de Power Pivot.
 ![img47](../images/img47.png)
 
 Paso 3. Minimizar la pantalla y hacer lo mismo con la pestaña de "Tiendas" y "Productos".
+
 ![img48](../images/img48.png)
 
 Veras en el editor de Power Pivot las tres pestañas de cada modelo de datos agregado.
