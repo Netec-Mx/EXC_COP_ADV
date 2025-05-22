@@ -73,6 +73,7 @@ Paso 2. Agregar campos a la tabla dinámica:
 - En la lista de campos de la tabla dinámica, seleccionar "Tienda" de la tabla de "Tiendas" y colocarla en el área de "Filas".
 - Agregar "Descripción del Producto" de la tabla de Productos al área de Filas debajo de Tienda.
 - Añadir "Unidades" de la tabla de Ventas al área de "Valores". 
+
 ![img54](../images/img54.png)
 
 Paso 3. Guardar los cambios realizados y cerrar el archivo.
@@ -132,13 +133,14 @@ Paso 6. Crear las relaciones de la siguiente manera:
 ![img62](../images/img62.png)
 
 
-### Tarea 2. Crear una tabla dinánmica
+### Tarea 2. Crear una tabla dinámica
 
 Paso 1. En la barra superior seleccionar tabla dinámica.
 
 ![img63](../images/img63.png)
 
 Paso 2. Seleccionar una nueva hoja de calculo.
+
 ![img64](../images/img64.png)
 
 Paso 3. La tabla dinámica quedará en la columna del campo de "Nombre" que está en la tabla Empleados.
