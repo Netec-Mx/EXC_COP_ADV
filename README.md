@@ -16,7 +16,7 @@ Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia pr
  - [Práctica 1. Control de acceso y protección de datos en un informe financiero.](./Capítulo1/README.md)
    - ⏱️ **Duración estimada**: 15 minutos.
 
- - [Práctica 2. Sistema de registro de clientes con macros.](./)
+ - [Práctica 2. Sistema de registro de clientes con macros.](./Capítulo2/README.md)
    - ⏱️ **Duración estimada**: 25 minutos.
 
  - [Práctica 3.1. Modelo de datos con Power Pivot ().](./Capítulo3/README.md)
