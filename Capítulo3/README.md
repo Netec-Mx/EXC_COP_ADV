@@ -8,6 +8,12 @@ Al finalizar la práctica, serás capaz de:
 ## Duración aproximada:
 - 10 minutos.
 
+---
+
+**[⬅️ Atrás](https://netec-mx.github.io/EXC_COP_ADV/Cap%C3%ADtulo2/)** | **[Lista General](https://netec-mx.github.io/EXC_COP_ADV/)** | **[Siguiente ➡️](https://netec-mx.github.io/EXC_COP_ADV/Cap%C3%ADtulo4/)**
+
+---
+
 ## Escenario:
 Eres un analista de datos en una empresa que maneja grandes volúmenes de información sobre ventas, productos y tiendas. Recientemente, has notado que el manejo de estos datos en hojas de Excel individuales resulta lento y complicado. Por ello, decides usar Power Pivot para integrar y relacionar estas tablas, permitiendo un análisis más fluido y eficiente.
 
