@@ -8,6 +8,12 @@ Al finalizar la práctica, serás capaz de:
 ## Duración aproximada:
 - 20 minutos.
 
+---
+
+**[⬅️ Atrás](https://netec-mx.github.io/EXC_COP_ADV/Cap%C3%ADtulo5/)** | **[Lista General](https://netec-mx.github.io/EXC_COP_ADV/)** | **[Siguiente ➡️](https://netec-mx.github.io/EXC_COP_ADV/Cap%C3%ADtulo7/)**
+
+---
+
 ## Escenario: 
 
 Trabajas en el área de análisis de un restaurante. El gerente general solicita un informe donde pueda ver:
