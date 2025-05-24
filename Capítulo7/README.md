@@ -8,6 +8,15 @@ Al finalizar la práctica, serás capaz de:
 - Diseñar un Dashboard visual y funcional que facilite el análisis y comparación de ingresos por año, cuatrimestre y tipo de producto.
 - Interpretar los datos visualizados para identificar tendencias, patrones y apoyar la toma de decisiones financieras personales.
 
+## Duración aproximada:
+- 25 minutos.
+
+---
+
+**[⬅️ Atrás](https://netec-mx.github.io/EXC_COP_ADV/Cap%C3%ADtulo6/)** | **[Lista General](https://netec-mx.github.io/EXC_COP_ADV/)** 
+
+---
+
 ## Escenario:
 Ana es una profesional independiente que desde 2010 ha generado ingresos por diferentes medios: Alquiler, Cursos, Eventos, Libros y Trabajos. Ha llevado un registro trimestral de cada ingreso en euros, y ahora desea tener una visión clara y visual de su evolución financiera.
 
@@ -19,10 +28,7 @@ Ana quiere consolidar toda su información en un Dashboard interactivo que le pe
 - Detectar qué trimestre del año le genera mayores ingresos.
 - Identificar tendencias a lo largo del tiempo.
 
-## Duración aproximada:
-- 25 minutos.
-
-## Instrucciones 
+## Instrucciones:
 
 ### Tarea 1. Generar tablas dinámicas con la información necesaria
 
@@ -216,8 +222,6 @@ Paso 8. En cuanto a la conexión del segmentador de Cuatrimestre quedaría de la
 
 ![img189](../images/img189.png)
 
-
-### Resultado esperado
+## Resultado esperado:
 
 ![img190](../images/img190.png)
-
