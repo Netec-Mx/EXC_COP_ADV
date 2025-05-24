@@ -10,7 +10,13 @@ Al finalizar la práctica, serás capaz de:
 ## Duración aproximada:
 - 25 minutos.
 
-## Instrucciones 
+---
+
+**[⬅️ Atrás](https://netec-mx.github.io/EXC_COP_ADV/Cap%C3%ADtulo1/)** | **[Lista General](https://netec-mx.github.io/EXC_COP_ADV/)** | **[Siguiente ➡️](https://netec-mx.github.io/EXC_COP_ADV/Cap%C3%ADtulo3/)**
+
+---
+
+## Instrucciones:
 
 ### Tarea 1. Realizar macro para registrar a clientes
 Paso 1. Abrir el archivo llamado [Registro_de_clientes](<Registro de clientes.xlsm>).
