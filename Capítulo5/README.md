@@ -10,6 +10,12 @@ Al finalizar la práctica, serás capaz de:
 ## Duración aproximada:
 - 20 minutos.
 
+---
+
+**[⬅️ Atrás](https://netec-mx.github.io/EXC_COP_ADV/Cap%C3%ADtulo4/)** | **[Lista General](https://netec-mx.github.io/EXC_COP_ADV/)** | **[Siguiente ➡️](https://netec-mx.github.io/EXC_COP_ADV/Cap%C3%ADtulo6/)**
+
+---
+
 ## Escenario:
 Formas parte del equipo de logística de una empresa.
 Llevan el inventario en una tabla de Excel con columnas como producto, stock actual, y stock mínimo.
