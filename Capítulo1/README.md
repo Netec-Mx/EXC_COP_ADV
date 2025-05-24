@@ -11,7 +11,13 @@ Al finalizar la práctica, serás capaz de:
 ## Duración aproximada:
 - 15 minutos.
 
-## Instrucciones 
+---
+
+**[Lista General](https://netec-mx.github.io/EXC_COP_ADV/)** | **[Siguiente ➡️](https://netec-mx.github.io/EXC_COP_ADV/Cap%C3%ADtulo2/)**
+
+---
+
+## Instrucciones:
 
 ### Tarea 1. Preparar las celdas editables (comentarios)
 
