@@ -31,11 +31,11 @@ Paso 3. Selecciona la opción de **"Agregar a una hoja nueva"**.
 
 ![img193](../images/img193.png)
 
-Paso 3. Ahora, pídele a Copilot lo siguiente: "Calcula el promedio de ventas por categoría”.
+Paso 4. Ahora, pídele a Copilot lo siguiente: "Calcula el promedio de ventas por categoría”.
 
 ![img194](../images/img194.png)
 
-Paso 4. Inserta los datos en una hoja nueva.
+Paso 5. Inserta los datos en una hoja nueva.
 
 ![img195](../images/img195.png)
 
