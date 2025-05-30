@@ -13,14 +13,15 @@ Al finalizar la práctica, serás capaz de:
 
 ---
 
-**[⬅️ Atrás](https://netec-mx.github.io/EXC_COP_ADV/Cap%C3%ADtulo6/)** | **[Lista General](https://netec-mx.github.io/EXC_COP_ADV/)** 
+**[⬅️ Atrás](https://netec-mx.github.io/EXC_COP_ADV/Cap%C3%ADtulo6/)** | **[Lista General](https://netec-mx.github.io/EXC_COP_ADV/)** | **[Siguiente ➡️](https://netec-mx.github.io/EXC_COP_ADV/Cap%C3%ADtulo8/)**
 
 ---
 
 ## Escenario:
 Ana es una profesional independiente que desde 2010 ha generado ingresos por diferentes medios: Alquiler, Cursos, Eventos, Libros y Trabajos. Ha llevado un registro trimestral de cada ingreso en euros, y ahora desea tener una visión clara y visual de su evolución financiera.
 
-Situación:
+**Situación:**
+
 Ana quiere consolidar toda su información en un Dashboard interactivo que le permita:
 
 - Ver sus ingresos anuales totales.
@@ -30,195 +31,196 @@ Ana quiere consolidar toda su información en un Dashboard interactivo que le pe
 
 ## Instrucciones:
 
-### Tarea 1. Generar tablas dinámicas con la información necesaria
+### Tarea 1. Generar tablas dinámicas con la información necesaria.
 
-Paso 1. Descargar el archivo llamado [Plantilla práctica 7](<Práctica módulo 7 dashboard.xlsx>).
+Paso 1. Descarga el archivo llamado [Plantilla práctica 7](<Práctica módulo 7 dashboard.xlsx>).
 
-Paso 2. Aparecen 3 hojas: En la hoja 1 se encuentran los datos con los que se va a trabajar. La hoja 2, llamada "PT", será el puente y la hoja 3 llamada "Dashboard_Ingreso".
+Paso 2. Aparecen 3 hojas: En la hoja 1 se encuentran los datos con los que vas a trabajar. La hoja 2, llamada "PT", será el puente; y la hoja 3, llamada "Dashboard_Ingreso".
 
-Paso 3. Seleccionar los datos de la hoja "Datos Dashboard Ingresos" e inserta una tabla dinámica, llevarla a la hoja llamada PT.
+Paso 3. Selecciona los datos de la hoja "Datos Dashboard Ingresos" e inserta una tabla dinámica. Posteriormente, llévala a la hoja llamada **PT**.
 
 ![img149](../images/img149.png)
 
 ![img150](../images/img150.png)
 
-Paso 4. Realizar la tabla de ingresos totales.
-En la sección de valores, colocar el campo "Ingresos".
+Paso 4. Realiza la tabla de **ingresos totales**.
+
+En la sección de valores, coloca el campo "Ingresos".
 
 ![img151](../images/img151.png)
 
-Paso 5. Cambiar el título de la tabla dinámica por "Ingresos Totales". Revisar que este en formato moneda y quitar los decimales. 
+Paso 5. Modifica el título de la tabla dinámica por "Ingresos Totales". Revisa que se encuentre en formato **moneda** y quita los decimales. 
 
 ![img152](../images/img152.png)
 
-Paso 6. Generar la tabla dinámica para poder comparar los ingresos de cada producto o fuente.
-Ir a la hoja de los datos e insertar la tabla dinamica. 
+Paso 6. Genera la tabla dinámica para comparar los ingresos de cada producto o fuente.
+
+Dirígete a la hoja de los datos e inserta la tabla dinámica. 
 
 ![img153](../images/img153.png)
 
-Los campos quedarán así:
+Por lo tanto, los campos quedarán de la siguiente forma:
 
-- Fila --> Tipo Producto
-- Valores --> Suma Ingresos
+- Fila ➡️ Tipo Producto
+- Valores ➡️ Suma Ingresos
 
 ![img154](../images/img154.png)
 
-Paso 7. Cambiar el encabezado de la columana por "Fuente de Ingresos", quitar los decimales y colocar el formato moneda.
+Paso 7. Cambia el encabezado de la columana por "Fuente de Ingresos", quita los decimales y coloca el formato moneda.
 
 ![img155](../images/img155.png)
 
-Paso 8. Para quitar el total general, dirigirse a la opción de "Diseño" y seleccionar la opción de "Totales generales"; dar clic en la opción "Desactivado para filas y columnas".
-
+Paso 8. Para quitar el total general, dirígete a la opción de "Diseño" y selecciona la opción de "Totales generales"; da clic en la opción "Desactivado para filas y columnas".
 
 ![img156](../images/img156.png)
 
-Paso 9. Crear una tabla que más adelante ayude a generar un gráfico de líneas para todos los años, para esto se necesita contar con los ingresos para cada año. Dirigirse a la hoja de "Datos", seleccionar e insertar la tabla dinámica en la hoja PT.
-Seleccionar los campos de la siguiente manera:
+Paso 9. Crea una tabla, la cual más adelante ayude a generar un gráfico de líneas para todos los años; para esto se necesita contar con los ingresos para cada año. 
 
-- Fila --> Año
-- Valores --> Suma Ingresos
+Dirígete a la hoja de "Datos", selecciona e inserta la tabla dinámica en la hoja PT.
+
+Selecciona los campos de la siguiente manera:
+
+- Fila ➡️ Año
+- Valores ➡️ Suma Ingresos
 
 ![img157](../images/img157.png)
 
-Paso 10. Cambiar el nombre de "Etiquetas de fila" por "Año", poner formato moneda, quitar los decimales y desactivar el total general.
+Paso 10. Sustituye el nombre de "Etiquetas de fila" por "Año", asigna el formato moneda, quita los decimales y desactiva el total general.
 
 ![img158](../images/img158.png)
 
-
-Paso 11. Cambiar el nombre de las tablas dinámicas para tenerlas bien identificadas.
+Paso 11. Cambia el nombre de las tablas dinámicas para que puedan ser identificadas más facilmente.
 
 ![img159](../images/img159.png)
 
-- Tabla 1 --> TD_Ing_Totales
-- Tabla 2 --> TD_Fuentes
-- Tabla 3 --> TD_Años
-
+- Tabla 1 ➡️ TD_Ing_Totales
+- Tabla 2 ➡️ TD_Fuentes
+- Tabla 3 ➡️ TD_Años
 
 ![img160](../images/img160.png)
 
+### Tarea 2. Diseñar el dashboard.
 
-### Tarea 3. Diseñar el dashboard.
-
-Paso 1. Para pasar la tabla dinámica del total de ingresos al dashboard, seleccionar la tabla y en la opción de "Analizar tabla dinámica" hacer clic en mover tabla dinámica.
+Paso 1. Para pasar la tabla dinámica del total de ingresos al dashboard, selecciona la tabla y, en la opción de "Analizar tabla dinámica", haz clic en mover tabla dinámica.
 
 ![img161](../images/img161.png)
 
-Pasar la tabla a la hoja de dashboard.
+Pasa la tabla a la hoja de dashboard.
 
 ![img162](../images/img162.png)
 
-Paso 2. Seleccionar el cuadro azul y borrarlo para poder ver la tabla. Para dar formato, subir la fuente a tamaño 20, asegurarse de que quede  en formato moneda, sin decimales y centrado. Poner letras de color blanco, centradas en negritas, y un poco anchas las celdas. Usar dos tonos de azul.
+Paso 2. Selecciona el cuadro azul y elimínalo para poder ver la tabla. Para dar formato, aumenta la fuente a tamaño 20. También, asegúrate de que quede en formato moneda, sin decimales y centrado. Pon letras de color blanco, centradas y en negritas, y un poco anchas las celdas. Asimismo, utiliza dos tonos de azul.
 
 ![img163](../images/img163.png)
 
-Paso 3. Crear un gráfico de la tabla "Fuentes". Dirigirse a "Gráfico dinámico" y seleccionar la opción de "Columnas". 
+Paso 3. Crea un gráfico de la tabla "Fuentes". Dirígete a "Gráfico dinámico" y selecciona la opción de "Columnas". 
 
 ![img164](../images/img164.png)
 
-Paso 4. Dar formato al gráfico: 
+Paso 4. Da formato al gráfico: 
 - Título: Ingreso por producto.
-- Eliminar el cuadro de total que aparece en el lado derecho.
-- Ocultar con clic derecho el botón que aparece en la parte superior izquierda llamado "Suma de ingresos".
-- Eliminar las líneas de cuadricula que aparecen de fondo.
+- Elimina el cuadro de total que aparece en el lado derecho.
+- Oculta con clic derecho el botón que aparece en la parte superior izquierda llamado "Suma de ingresos".
+- Elimina las líneas de cuadricula que aparecen de fondo.
 
 ![img165](../images/img165.png)
 
-Paso 5. Subir el ancho de las columnas a 99% para seguir dandole formato.
+Paso 5. Aumenta el ancho de las columnas a 99% para continuar dándole formato.
 
 ![img166](../images/img166.png)
 
-
-Paso 6. Agregar etiquetas en la parte superior del gráfico.
+Paso 6. Agrega etiquetas en la parte superior del gráfico.
 
 ![img167](../images/img167.png)
 
-Configurar la moneda con la clave "#,##0,"K" $".
+Configura la moneda con la clave `"#,##0,"K" $"`.
 
 ![img168](../images/img168.png)
 
-Subir a 10 el tamaño de las etiquetas y colocarlas en negritas. De la gráfica borrar los valores que aparecen del lado izquierdo.
+Aumenta a 10 el tamaño de las etiquetas y colócalas en negritas. De la gráfica, borra los valores que aparecen del lado izquierdo.
 
 ![img169](../images/img169.png)
 
-
-Paso 7. Mover el gráfico a la hoja donde se esta construyendo el dashboard.
+Paso 7. Desplaza el gráfico a la hoja donde se está construyendo el dashboard.
 
 ![img170](../images/img170.png)
 
-Seleccionar "Dashboard ingresos".
+Selecciona "Dashboard ingresos".
 
 ![img171](../images/img171.png)
 
-Ajustar el gráfico a la parte inferior izquierda.
+Ajusta el gráfico a la parte inferior izquierda.
 
 ![img172](../images/img172.png)
 
-Paso 8. Crear el gráfico de líneas para ver los ingresos por año.
+Paso 8. Crea el gráfico de líneas para observar los ingresos por año.
 
 ![img173](../images/img173.png)
 
-Dar formato al gráfico:
-- Cambiar el título por: Ingresos anuales.
-- Eliminar el cuadro de total que aparece en el lado derecho.
-- Ocultar con clic derecho el botón que aparece en la parte superior.
-- Eliminar las líneas de cuadricula que aparecen de fondo.
+Proporciona formato al gráfico:
+- Cambia el título por: Ingresos anuales.
+- Eliminr el cuadro de total que aparece en el lado derecho.
+- Oculta con clic derecho el botón que aparece en la parte superior.
+- Elimina las líneas de cuadricula que aparecen de fondo.
+- Suaviza la línea de la gráfica.
 
-- Suavizar la línea de la gráfica.
 ![img174](../images/img174.png)
 
-Configurar la columna donde aparecen la cifras, agregar "K" para que las cifras aparezcan así. 
+Configura la columna donde aparecen la cifras, agrega "K" para que las cifras aparezcan así. 
+
 ![img175](../images/img175.png)
 
-Paso 9. Mover el gráfico a la hoja de dashboard.
+Paso 9. Mueve el gráfico a la hoja de dashboard.
 
 ![img176](../images/img176.png)
 
-Ajustar a las dimensiones que se consideraron para ese gráfico.
+Ajusta a las dimensiones que se consideraron para ese gráfico.
+
 ![img177](../images/img177.png)
 
-### Tarea 4. Insertar segmentadores
+### Tarea 3. Insertar segmentadores.
 
-Paso 1. Posicionarse en cualquier gráfico y seleccionar la opción de "Segmentadores", marcar: Año, Cuatrimestre y Tipo de producto.
+Paso 1. Posiciónate en cualquier gráfico y selecciona la opción de "Segmentadores"; marca: Año, Cuatrimestre y Tipo de producto.
 
 ![img178](../images/img178.png)
 
 ![img179](../images/img179.png)
 
-Paso 2. Seleccionar el segmentador de año y en la opción de "Columna" colocar 13.
+Paso 2. Selecciona el segmentador de año y, en la opción de "Columna", coloca 13.
 
 ![img180](../images/img180.png)
 
-Ajustar en el dashboard.
+Ajusta en el dashboard.
 
 ![img181](../images/img181.png)
 
-Paso 3. Conectar el segmentador para que también se mueva la tabla de "Ingresos totales".
+Paso 3. Conecta el segmentador para que también se mueva la tabla de "Ingresos totales".
 
 ![img182](../images/img182.png)
 
-Paso 4. Poner el gráfico estático para que no se mueva. 
+Paso 4. Coloca el gráfico estático para que éste no se mueva. 
 
-Seleccionar el gráfico de ingreso por producto, hacer clic derecho y seleccionar "Opciones de gráfico dinámico".
+Selecciona el gráfico de ingreso por producto, haz clic derecho y selecciona "Opciones de gráfico dinámico".
 
 ![img183](../images/img183.png)
 
-Desmarcar la opción de autoajustar para esa gráfica y para la gráfica de "Ingresos anuales". 
+Desmarca la opción de autoajustar para esa gráfica y para la de "Ingresos anuales". 
 
 ![img185](../images/img185.png)
 
-Paso 5. Ajustar el segmentador de "Cuatrimestre" a dos columnas.
+Paso 5. Ajusta el segmentador de "Cuatrimestre" a dos columnas.
 
 ![img186](../images/img186.png)
 
-Paso 6. Hacer lo mismo con el segmentador "Tipo Producto", colocarlo a 5 columnas y acomodarlo.
+Paso 6. Realiza lo mismo con el segmentador "Tipo Producto", colócalo a 5 columnas y acomódalo.
 
 ![img187](../images/img187.png)
 
-Paso 7. Conectar el segmentador Tipo Producto para que la conexión quede de la siguiente manera:
+Paso 7. Conecta el segmentador **Tipo Producto** para que la conexión quede de la siguiente manera:
 
 ![img188](../images/img188.png)
 
-Paso 8. En cuanto a la conexión del segmentador de Cuatrimestre quedaría de la siguiente manera: 
+Paso 8. En cuanto a la conexión del segmentador de **Cuatrimestre**, quedaría de la siguiente manera: 
 
 ![img189](../images/img189.png)
 
