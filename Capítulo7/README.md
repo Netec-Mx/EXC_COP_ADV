@@ -1,4 +1,4 @@
-# Práctica 7. Dashboard ingresos personales
+# Práctica 7. Dashboard: Ingresos personales
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
