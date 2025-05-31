@@ -21,13 +21,16 @@ Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia pr
 
  - [Práctica 3.1. Modelo de datos con Power Pivot ().](./Capítulo3/README.md)
    - ⏱️ **Duración estimada**: 10 minutos.
+
  - [Práctica 3.2. Filtrado interactivo de ventas con segmentación en Power Pivot.](./Capítulo3/README.md)
    - ⏱️ **Duración estimada**: 15 minutos.
+
  - [Práctica 3.3. Evaluación de Ventas con KPIs en Power Pivot.](./Capítulo3/README.md)
    - ⏱️ **Duración estimada**: 15 minutos.
 
  - [Práctica 4.1. Unificación de nombres en una celda utilizando Power Query.](./Capítulo4/README.md)
    - ⏱️ **Duración estimada**: 10 minutos.
+
  - [Práctica 4.2. Segmentación inteligente de clientes con Power Query.](./Capítulo4/README.md)
    - ⏱️ **Duración estimada**: 15 minutos.
 
@@ -39,3 +42,6 @@ Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia pr
 
  - [Práctica 7. Dashboard ingresos personales.](./Capítulo7/README.md)
    - ⏱️ **Duración estimada**: 25 minutos.
+
+- [Práctica 8. Análisis de ventas con Copilot e Inteligencia Artificial](./Capítulo8/README.md)
+  - ⏱️ **Duración estimada**: 15 minutos.
