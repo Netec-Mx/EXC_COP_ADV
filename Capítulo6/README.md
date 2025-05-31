@@ -23,35 +23,33 @@ Trabajas en el área de análisis de un restaurante. El gerente general solicita
 - Cuánto se ha vendido por tipo de producto (Comida vs Bebida).
 - Cuánto se ha vendido exclusivamente en productos de comida con precio menor a $100.
 
-## Instrucciones 
+## Instrucciones:
 
-### Tarea 1. Cargar la base de datos de Excel a Power Pivot
+### Tarea 1. Cargar la base de datos de Excel a Power Pivot.
 
-Paso 1. Descargar el archivo llamado: [Practica Modulo 6](<Práctica Modulo 6.xlsx>).
+Paso 1. Descarga el archivo: [Practica Modulo 6](<Práctica Modulo 6.xlsx>).
 
-Paso 2. Dirigirse a la parte superior en Power Pivot y seleccionar "Agregar a modelo de datos".
+Paso 2. Dirígete a la parte superior en Power Pivot y selecciona "Agregar a modelo de datos".
 
 ![img137](../images/img137.png)
 
 ![img138](../images/img138.png)
 
+### Tarea 2. Crear las medidas DAX.
 
-### Tarea 2. Crear las medidas DAX
+Paso 1. Posiciónate en el área de cálculo.
 
-Paso 1. Posicionarse en el área de cálculo.
-
-Paso 2. Para poder calcular el "Total de propinas por mesero", utilizar la siguiente fórmula.
+Paso 2. Para poder calcular el "Total de propinas por mesero", utiliza la siguiente fórmula:
 
 ```
 TotalPropinas:=SUM(Restaurant[Propina])
 ```
 
-Paso 3. Al calculo realizado darle el formato de moneda.
+Paso 3. Al cálculo realizado, asígnale el formato de **Moneda**.
 
 ![img139](../images/img139.png)
 
-
-Paso 4. Para calcular el promedio de propina por pedido (orden). Escribir la siguiente fórmula:
+Paso 4. Para calcular el promedio de propina por pedido (orden), escribe la siguiente fórmula:
 
 ```
 PromedioPropina:=AVERAGEX(
@@ -60,23 +58,23 @@ PromedioPropina:=AVERAGEX(
 )
 ```
 
-Paso 5. Al calculo realizado darle el formato de moneda.
+Paso 5. Al cálculo realizado, asígnale el formato de **Moneda**.
 
 ![img140](../images/img140.png)
 
 Esto calcula el promedio por pedido (Orden), agrupando todos los registros con el mismo número de orden.
 
-Paso 6. Calcular el Total de ventas por tipo de producto.
+Paso 6. Calcula el **Total de ventas** por tipo de producto.
 
 ```
 VentasTotales:=SUM(Restaurant[Precio])
 ```
 
-Paso 7. Aplicar el formato moneda.
+Paso 7. Aplica el formato **Moneda**.
 
 ![img141](../images/img141.png)
 
-Paso 8. Calcular las ventas de comida con precio menor a $100.
+Paso 8. Calcula las ventas de comida con precio menor a $100.
 
 ```
 VentasComidaMenor100:=CALCULATE(
@@ -89,45 +87,44 @@ VentasComidaMenor100:=CALCULATE(
 )
 ```
 
-Paso 9. Aplicar el formato moneda.
+Paso 9. Aplica el formato **Moneda**.
 
 ![img142](../images/img142.png)
 
-Filtrar toda la tabla "Restaurant" para solo incluir productos tipo comida con precio menor a 100.
+Filtra toda la tabla "Restaurant" para solo incluir productos tipo comida con precio menor a 100.
 
+### Tarea 3. Realizar tablas dinámicas.
 
-### Tarea 3. Realizar tablas dinámicas
-
-Paso 1. En la interfaz de Power Pivot seleccionar "Tabla dinámica" en una nueva hoja. 
+Paso 1. En la interfaz de Power Pivot, selecciona "Tabla dinámica" en una nueva hoja. 
 
 ![img143](../images/img143.png)
 
-Paso 2. Realizar la primera tabla de las "Propinas por mesero".
+Paso 2. Realiza la primera tabla de las "Propinas por mesero".
 
-- Filas --> Restaurant[Atendió]
-- Valores --> Total Propinas
+- Filas ➡️ Restaurant[Atendió]
+- Valores ➡️ Total Propinas
 
 ![img144](../images/img144.png)
 
-Paso 3. Agregar el promedio por pedido (orden). Seleccionar la medida de "PromedioPropina" para asignarla al campo valores.
+Paso 3. Agrega el promedio por pedido (orden). Selecciona la medida de "PromedioPropina" para asignarla al campo valores.
 
 ![img145](../images/img145.png)
 
-Paso 4. Copiar y pegar esa tabla dinamica, limpiar todos los campos y después, estructurar las ventas por tipo.
+Paso 4. Copia y pega esa tabla dinámica, limpia todos los campos y, posteriormente, estructura las ventas por tipo.
 
-- Filas --> Restaurant[Tipo]
-- Valores --> VentasTotales
+- Filas ➡️ Restaurant[Tipo]
+- Valores ➡️ VentasTotales
 
 Se tiene que las ventas totales fueron de $2,051,629.
 
 ![img146](../images/img146.png)
 
-Paso 5. Agregar a la tabla la medida que se realizo de VentasComidaMenor100.
+Paso 5. Agrega a la tabla la medida que se realizó de **VentasComidaMenor100**.
 
 ![img147](../images/img147.png)
 
-### Resultado esperado
+## Resultado esperado:
 
-En el análisis realizado, se identificó que el total recaudado en propinas entre todos los meseros fue de $3,560.18, siendo Mauricio quien destacó significativamente con $551.20, la cifra más alta individual. Además, al evaluar el promedio de propina por pedido, Mauricio nuevamente lidera con un promedio de $2.43, muy por encima del promedio general de $1.42, lo cual sugiere un desempeño destacado en atención al cliente o tipo de servicio brindado. En cuanto a las ventas por tipo de producto, se determinó que la comida generó $1,392,755, representando la mayor parte del ingreso frente a las bebidas con $658,874. Finalmente, se observó que dentro de las ventas de comida, los productos con precio menor a $100 representaron un volumen importante, alcanzando un total de $653,942, lo cual evidencia una alta demanda de opciones accesibles dentro del menú.
+En el análisis realizado, se identificó que el total recaudado en propinas entre todos los meseros fue de $3,560.18, siendo Mauricio quien destacó significativamente con $551.20, la cifra más alta de forma individual. Además, al evaluar el promedio de propina por pedido, Mauricio nuevamente lidera con un promedio de $2.43, muy por encima del promedio general de $1.42, lo cual sugiere un desempeño destacado en atención al cliente o tipo de servicio brindado. En cuanto a las ventas por tipo de producto, se determinó que la comida generó $1,392,755, representando la mayor parte del ingreso frente a las bebidas con $658,874. Finalmente, se observó que dentro de las ventas de comida, los productos con precio menor a $100 representaron un volumen importante, alcanzando un total de $653,942, lo cual evidencia una alta demanda de opciones accesibles dentro del menú.
 
 ![img148](../images/img148.png)
