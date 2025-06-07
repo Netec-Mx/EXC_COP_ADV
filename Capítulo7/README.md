@@ -35,7 +35,11 @@ Ana quiere consolidar toda su información en un Dashboard interactivo que le pe
 
 Paso 1. Descarga el archivo llamado [Plantilla práctica 7](<Práctica módulo 7 dashboard.xlsx>).
 
-Paso 2. Aparecen 3 hojas: En la hoja 1 se encuentran los datos con los que vas a trabajar. La hoja 2, llamada "PT", será el puente; y la hoja 3, llamada "Dashboard_Ingreso".
+Paso 2. Aparecen 3 hojas.
+
+1. En la hoja 1, se encuentran los datos con los que vas a trabajar,
+2. La hoja 2, llamada "PT", será el puente;
+3. y la hoja 3, llamada "Dashboard_Ingreso".
 
 Paso 3. Selecciona los datos de la hoja "Datos Dashboard Ingresos" e inserta una tabla dinámica. Posteriormente, llévala a la hoja llamada **PT**.
 
