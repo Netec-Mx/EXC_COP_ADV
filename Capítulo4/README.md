@@ -1,17 +1,32 @@
+<<<<<<< HEAD
 # Unificación de nombres en una celda utilizando Power Query.
+=======
+# Ejercicio 1. Actualización de direcciones de correo electrónico con Relleno Rápido.
+>>>>>>> a33f170 (Mis cambios en main)
 
-## Objetivo de la práctica:
-Al finalizar la práctica, serás capaz de:
-- Aprender a utilizar Power Query para combinar columnas de texto en una sola celda y formatear los datos de manera eficiente. En este caso, unificar los campos de Nombre, Apellido Paterno y Apellido Materno en una nueva columna denominada Nombre Completo.
+## Descargar el archivo llamado: [Ejercicio_correo_electrónico](Ejercicio_correo_electrónico.xlsx) 
+Seguir las instrucciones del instructor para la resolución.
 
-## Duración aproximada:
-- 10 minutos.
+# Ejercicio 2. Optimización de Datos con Flash Fill en Excel
 
+<<<<<<< HEAD
 ## Escenario:
 Tienes una base de datos de clientes donde los campos Nombre, Apellido Paterno y Apellido Materno están separados en distintas columnas. Sin embargo, para algunos informes, necesitas consolidar el nombre completo de cada cliente en una sola celda. En lugar de hacerlo manualmente, utilizarás Power Query para automatizar este proceso, combinando estos campos en una nueva columna llamada Nombre Completo.
+=======
+## Descargar el archivo llamado:  [Optimización de Datos con Flash Fill](<Ejercicio_optimización de Datos.xlsx>)
+Seguir las instrucciones del instructor para la resolución.
 
-Este procedimiento es útil en situaciones comunes, como la preparación de listas de correos electrónicos, informes de clientes o el análisis de datos, donde es necesario presentar el nombre completo de cada persona de manera clara y organizada.
 
+# Ejercicio 3. Unificación de Nombres y Manipulación de Direcciones
+
+## Descargar el archivo llamado:  [Unificación de nombres](Unificación_de_nombres.xlsx)
+Seguir las instrucciones del instructor para la resolución.
+>>>>>>> a33f170 (Mis cambios en main)
+
+# Ejercicio 4. Inventario creciente.
+## Descargar el archivo llamado: [relleno_y_series](<Relleno y series Ejercicio 4 a 6 (1).xlsx>)
+
+<<<<<<< HEAD
 ## Instrucciones 
 
 ### Tarea 1. Cargar los datos
@@ -22,25 +37,63 @@ el cual está en formato csv.
 Podrás observar las columnas separadas de Nombre, Apellido Paterno y Apellido Materno.
 
 Paso 2.  Dirígete a la pestaña Datos > Obtener datos > Desde archivo > De texto/CSV.
+=======
+Paso 1. Ir a la hoja inventario y seguir las instrucciones del instructor para la resolución.
 
-![img88](../images/img88.png)
+# Ejercicio 5. Crecimiento de visitas a un sitio web
+## Descargar el archivo llamado: [relleno_y_series](<Relleno y series Ejercicio 4 a 6 (1).xlsx>)
 
+Paso 1. Ir a la hoja Proyecciones y seguir las instrucciones del instructor para la resolución.
+
+# Ejercicio 6. Calendario de reuniones trimestrales
+
+## Descargar el archivo llamado: [relleno_y_series](<Relleno y series Ejercicio 4 a 6 (1).xlsx>)
+>>>>>>> a33f170 (Mis cambios en main)
+
+Paso 1. Ir a la hoja Reuniones trimestrales.
+Paso 2. Seguir las instrucciones del instructor para la resolución.
+
+<<<<<<< HEAD
 Paso 3. Selecciona el archivo Registro Clientes, el cual contiene los nombres, apellidos paternos y maternos.
 
 Paso 4. En el panel del Navegador, selecciona la tabla que contiene estos datos y haz clic en Transformar datos para abrir el editor de Power Query.
+=======
 
-![img89](../images/img89.png)
+# Ejercicio 7. Proyección de crecimiento geométrico 
+## Descargar el archivo llamado: [Previsiones_ventas](Previsiones_Ventas-ejercicio.xlsx)
+Seguir las instrucciones del instructor para la resolución.
+>>>>>>> a33f170 (Mis cambios en main)
 
-### Tarea 2. Combinar columnas.
+# Ejercicio 8. Validación de datos con mensaje de error personalizado
+## Descargar el archivo llamado: [Inscripción_escuela_esqui](Inscripcion_Escuela_Esqui.xlsx)
+Seguir las instrucciones del instructor para la resolución.
 
+# Ejercicio 9. Asigna empleados usando listas desplegables
+## Descargar el archivo llamado: [Asignación de empleados](Asignación_empleados.xlsx)
+Seguir las instrucciones del instructor para la resolución.
+
+<<<<<<< HEAD
 Paso 1. En el editor de Power Query, haz clic en el cuadro izquierdo que aparece a lado de la Column1 y selecciona la opción de Usar la primera fila como encabezado.
+=======
+# Ejercicio 10. Limpia tu base de datos eliminando duplicados 
+## Descargar el archivo llamado: [Clientes_duplicados](<Clientes_Duplicados_Ejercicio (2).xlsx>)
+Seguir las instrucciones del instructor para la resolución
+>>>>>>> a33f170 (Mis cambios en main)
 
-![img90](../images/img90.png)
+# Ejercicio 11. Subtotales en Excel: Ventas por Vendedor
+## Descargar el archivo llamado: [Ventas_subtotales](Ventas_Subtotales_Ejercicio.xlsx)
+Seguir las instrucciones del instructor para la resolución
 
-Paso 2. Selecciona las 3 columnas que traen información del nombre y los apellidos.
+# Ejercicio 12. Subtotales por Ubicación en el Mercado de Agricultores
+## Descargar el archivo llamado: [Mercado_agricultores](Mercado_Agricultores.xlsx)
+Seguir las instrucciones del instructor para la resolución
 
-![img91](../images/img91.png)
+# Ejercicio 13. Generación de códigos aleatorios para taquillas 
+## Descargar el archivo llamado: [Taquillas_fidelización](Taquillas_Fidelización.xlsx)
+Paso 1. Ir a la hoja Taquillas
+Paso 2. Seguir las instrucciones del instructor para la resolución.
 
+<<<<<<< HEAD
 
 Paso 3.  Da clic derecho y selecciona Combinar columnas.
 
@@ -177,3 +230,9 @@ Paso 2. Guarda los cambios realizados y cierra el archivo.
 ![img111](../images/img111.png)
 
 
+=======
+# Ejercicio 14. Tarjetas de regalo aleatorias
+## Descargar el archivo llamado: [Taquillas_fidelización](Taquillas_Fidelización.xlsx)
+Paso 1. Ir a la hoja Fidelización
+Paso 2. Seguir las instrucciones del instructor para la resolución.
+>>>>>>> a33f170 (Mis cambios en main)
